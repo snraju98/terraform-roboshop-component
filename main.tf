@@ -205,3 +205,7 @@ resource "aws_lb_listener_rule" "main" {
     command = "aws ec2 terminate-instances --instance-ids ${aws_instance.catalogue.id}"
   }
 } */
+
+
+
+

@@ -17,3 +17,7 @@ variable "component" {
 variable "domain_name" {
     default = "daws90s.fun"
 }
+
+variable "rule_priority" {
+    #type = string
+}
